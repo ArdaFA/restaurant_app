@@ -56,7 +56,7 @@ class IntroPage extends StatelessWidget {
             MyButton(text: "Get Started",
             onTap: () {
               // go to menu page
-              Navigator.pushNamed(context, routeName)
+              Navigator.pushNamed(context, '/intropage');
             },
             )
             
