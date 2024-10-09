@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:restaurant_app/components/button.dart';
+import 'package:restaurant_app/themes/colors.dart';
 
 class MenuPage extends StatelessWidget {
   const MenuPage({Key? key}) : super(key: key);
@@ -28,6 +30,42 @@ class MenuPage extends StatelessWidget {
               color: Colors.grey[900],
             ),
               ),
+        ),
+        body: Column(
+          children: [
+            // promo banner
+            Container(
+              decoration: BoxDecoration(color: primaryColor),
+              child: Row(
+                children: [
+
+                  Column(
+                    children: [
+                      // promo message
+                      Text("get 10% promo now!"),
+
+                      // redeem button
+                      MyButton(
+                          text: "Redeem",
+                          onTap: (){
+
+                          })
+                    ],
+                  ),
+
+                 
+                  
+                ],
+              ),
+            )
+
+            // search bar
+
+            // menu list
+
+            // popular food
+
+          ],
         ),
       ),
     );
