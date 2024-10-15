@@ -78,7 +78,7 @@ flutter:
   fonts:
     - family: Japanese
       fonts:
-        - asset: fonts/SawarabiMincho-Regular.ttf
+        - asset: lib/fonts/SawarabiMincho-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
